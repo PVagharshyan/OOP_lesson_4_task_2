@@ -3,7 +3,7 @@ import course
 import department
 
 def main() -> None:
-    print("!Department_run!")
+    print("!main_run!")
     s_list = [student.Student(f"name{i}") for i in range(2)]
     c_list = [course.Course("course_name", 15, s_list) for i in range(10)]
     d = department.Department(c_list)
